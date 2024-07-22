@@ -7,6 +7,8 @@ This repository contains basic git commands
 #### Take help from the Git help section for different commands and other errors.
     git help
 
+<hr><hr>
+
 ## 1.2 Git Config
 ####  To set the basic configurations on Git like your name and email.
     git config
@@ -25,6 +27,7 @@ This repository contains basic git commands
 
 ####  To see what’s changed since the last commit. It shows all the files that have been added and modified and are ready to be committed and files that are untracked.
     git status
+<hr><hr>
 
 ## 1.3 Adding and Committing Files
 ####  To add a file Readme.txt to the staging area to track its changes.
@@ -57,6 +60,8 @@ This repository contains basic git commands
 #### To figure out what changes you made since the last commit.
     git diff
 
+<hr><hr>
+
 ## 1.4 Undoing Changes
 #### To undo the staging of the file that was added in the staging area.
     git reset HEAD license
@@ -76,6 +81,8 @@ This repository contains basic git commands
 #### To undo the last 2 commits and all changes.
     git reset --hard HEAD^^
 
+<hr><hr>
+
 ## 1.5 Working with Remotes
 #### These commands make a bookmark which signifies that this particular remote refers to this URL. This remote will be used to pull any content from the directory and push our local content to the global server.
     git remote add origin https://github.com/something.git
@@ -91,6 +98,8 @@ This repository contains basic git commands
 
 #### To clone or make a local copy of the global repository in your system (git clone command downloads the repository and creates a remote named origin which can be checked by the command – git remote -v).
     git clone https://github.com/something.git
+
+<hr><hr>
 
 ## 1.6 Branching
 #### To create a new branch named Testing.
@@ -117,6 +126,8 @@ This repository contains basic git commands
 #### To forcefully delete a branch without making commits.
     git branch -D Testing
 
+<hr><hr>
+
 ## 1.7 Tags
 #### To see the list of available tags.
     git tag
@@ -129,6 +140,8 @@ This repository contains basic git commands
 
 #### To push the tags to the remote repository.
     git push --tags
+
+<hr><hr>
 
 ## 1.8 Fetching and Stashing
 #### To fetch down any changes from the global repository to the current repository.
@@ -143,6 +156,8 @@ This repository contains basic git commands
 #### To clear the stash folder.
     git stash clear
 
+<hr><hr>
+
 ## 1.9 Rebasing
 #### Three tasks are performed by git rebase
 ##### 1. Move all changes to master which are not in origin/master to a temporary area.
@@ -150,10 +165,13 @@ This repository contains basic git commands
 ##### 3. Run all commits in the temporary area on top of our master one at a time, so it avoids merge commits.
     git rebase
 
+<hr><hr>
+
 ## 1.10 Miscellaneous
 #### Used to show the current version of Git.
     git --version
 
+<hr><hr>
 
 # 2. Advanced Git Commands
 
