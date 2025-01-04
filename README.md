@@ -1,7 +1,7 @@
 # Git Commands 🦫
 This repository contains basic git commands 
 
-# 1. Git Basics Commands
+<h1 style="color:blue;">1. Git Basics Commands</h1>
 
 ## 1.1 Git Help
 #### Take help from the Git help section for different commands and other errors.
