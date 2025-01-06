@@ -1,8 +1,7 @@
 # Git Commands 🦫
 This repository contains basic git commands 
 
-<h1 style="color:blue;">1. Git Basics Commands</h1>
-Some Markdown text with <span style="color:blue"><h1>some *blue* text</h1></span>.
+# 1. Git Basics Commands
 
 ## 1.1 Git Help
 #### Take help from the Git help section for different commands and other errors.
