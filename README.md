@@ -9,17 +9,17 @@ This repository contains basic git commands
 
 <hr><hr>
 
-## 1.2 Git Config
-####  To set the basic configurations on Git like your name and email.
+## ⚙️ 1.2 Git Config
+#### 🛠️ To set the basic configurations on Git like your name and email.
     git config
 
-####  Sets configuration values for your user name on git.
+#### 👤 Sets configuration values for your user name on git.
     git config --global user.name "rocky"
 
-####  Sets configuration values for your user email on git.
+#### ✉️  Sets configuration values for your user email on git.
     git config --global user.email "goldmine@gmail.com"
 
-#### To see different colors on the command line for different outputs.
+#### 🎨 To see different colors on the command line for different outputs.
     git config --global color.ui true
 
 ####  To create a local git repository for us in our store folder. This will help to manage the git commands for that particular repository.
