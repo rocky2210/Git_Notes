@@ -22,42 +22,42 @@ This repository contains basic git commands
 #### 🎨 To see different colors on the command line for different outputs.
     git config --global color.ui true
 
-####  To create a local git repository for us in our store folder. This will help to manage the git commands for that particular repository.
+#### 📂 To create a local git repository for us in our store folder. This will help to manage the git commands for that particular repository.
     git init
 
-####  To see what’s changed since the last commit. It shows all the files that have been added and modified and are ready to be committed and files that are untracked.
+#### 📊 To see what’s changed since the last commit. It shows all the files that have been added and modified and are ready to be committed and files that are untracked.
     git status
 <hr><hr>
 
-## 1.3 Adding and Committing Files
-####  To add a file Readme.txt to the staging area to track its changes.
+## 📌 1.3 Adding and Committing Files
+#### 📥 To add a file Readme.txt to the staging area to track its changes.
     git add Readme.txt
 
-####  To commit our changes (taking a snapshot) and provide a message to remember for future reference.
+#### 💾 To commit our changes (taking a snapshot) and provide a message to remember for future reference.
     git commit -m "Created a Readme.txt"
 
-####  To check the history of commits for our reference.
+#### 📜 To check the history of commits for our reference.
     git log
 
-#### To add a specific list of files to the staging area.
+#### 📂 To add a specific list of files to the staging area.
     git add
 
-#### To add all files of the current directory to the staging area.
+#### 📂 To add all files of the current directory to the staging area.
     git add --all
 
-#### To add all text files of the current directory to the staging area.
+#### 📄 To add all text files of the current directory to the staging area.
     git add *.txt
 
-#### To add all text files of a particular directory (docs) to the staging area.
+#### 📂 To add all text files of a particular directory (docs) to the staging area.
     git add docs/*.txt
 
-#### To add all files in a particular directory (docs) to the staging area.
+#### 📂 To add all files in a particular directory (docs) to the staging area.
     git add docs/
 
-#### To add text files of the entire project to the staging area.
+#### 📜 To add text files of the entire project to the staging area.
     git add "*.txt"
 
-#### To figure out what changes you made since the last commit.
+#### 🔍 To figure out what changes you made since the last commit.
     git diff
 
 <hr><hr>
