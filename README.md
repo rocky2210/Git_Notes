@@ -62,23 +62,23 @@ This repository contains basic git commands
 
 <hr><hr>
 
-## 1.4 Undoing Changes
-#### To undo the staging of the file that was added in the staging area.
+## 🔄 1.4 Undoing Changes
+#### ⏪ To undo the staging of the file that was added in the staging area.
     git reset HEAD license
 
-#### To blow away all changes since the last commit of the file.
+#### 🚫 To blow away all changes since the last commit of the file.
     git checkout --license
 
-#### To add any of our tracked files to the staging area and commit them by providing a message to remember.
+#### ✅ To add any of our tracked files to the staging area and commit them by providing a message to remember.
     git commit -a -m "Readme.md"
 
-#### To undo the last commit and bring the file to the staging area.
+#### ⏪ To undo the last commit and bring the file to the staging area.
     git reset --soft HEAD^
 
-#### To undo the last commit and remove the file from the staging area as well (In case we went horribly wrong).
+#### ❌ To undo the last commit and remove the file from the staging area as well (In case we went horribly wrong).
     git reset --hard HEAD^
 
-#### To undo the last 2 commits and all changes.
+#### 🗑️ To undo the last 2 commits and all changes.
     git reset --hard HEAD^^
 
 <hr><hr>
