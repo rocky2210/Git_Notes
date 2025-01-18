@@ -83,20 +83,20 @@ This repository contains basic git commands
 
 <hr><hr>
 
-## 1.5 Working with Remotes
-#### These commands make a bookmark which signifies that this particular remote refers to this URL. This remote will be used to pull any content from the directory and push our local content to the global server.
+## 🌍 1.5 Working with Remotes
+#### 🔗 These commands make a bookmark which signifies that this particular remote refers to this URL. This remote will be used to pull any content from the directory and push our local content to the global server.
     git remote add origin https://github.com/something.git
 
-#### To add new remotes to our local repository for a particular git address.
+#### 🔗 To add new remotes to our local repository for a particular git address.
     git remote add <address>
 
-#### To remove a remote from our local repository.
+#### 🚫 To remove a remote from our local repository.
     git remove rm
 
-#### To push all the contents of our local repository that belong to the master branch to the server (Global repository).
+#### 🚀 To push all the contents of our local repository that belong to the master branch to the server (Global repository).
     git push -u origin master
 
-#### To clone or make a local copy of the global repository in your system (git clone command downloads the repository and creates a remote named origin which can be checked by the command – git remote -v).
+#### 📥 To clone or make a local copy of the global repository in your system (git clone command downloads the repository and creates a remote named origin which can be checked by the command – git remote -v).
     git clone https://github.com/something.git
 
 <hr><hr>
