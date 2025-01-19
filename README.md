@@ -101,29 +101,29 @@ This repository contains basic git commands
 
 <hr><hr>
 
-## 1.6 Branching
-#### To create a new branch named Testing.
+## 🌿 1.6 Branching
+#### 🌱 To create a new branch named Testing.
     git branch Testing
 
-#### To see all the branches present and current branches that we are working on.
+#### 🗂️ To see all the branches present and current branches that we are working on.
     git branch
 
-#### To switch to branch Testing from the master branch.
+#### 🔄 To switch to branch Testing from the master branch.
     git checkout Testing
 
-#### To merge the Testing branch with the master branch.
+#### 🔀 To merge the Testing branch with the master branch.
     git merge Testing
 
-#### To delete the Testing branch.
+#### ❌ To delete the Testing branch.
     git branch -d Testing
 
-#### To create a new branch admin and set it as the current branch.
+#### 🌿 To create a new branch admin and set it as the current branch.
     git checkout -b admin
 
-#### To look at all the remote branches.
+#### 🌍 To look at all the remote branches.
     git branch -r
 
-#### To forcefully delete a branch without making commits.
+#### 🗑️ To forcefully delete a branch without making commits.
     git branch -D Testing
 
 <hr><hr>
