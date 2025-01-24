@@ -128,17 +128,17 @@ This repository contains basic git commands
 
 <hr><hr>
 
-## 1.7 Tags
-#### To see the list of available tags.
+## 🔖 1.7 Tags
+#### 📜 To see the list of available tags.
     git tag
 
-#### To set the current tag to v0.0.1.
+#### 📌 To set the current tag to v0.0.1.
     git checkout v0.0.1
 
-#### To create a new tag.
+#### 🏷️ To create a new tag.
     git tag -a v0.0.3 -m "version 0.0.3"
 
-#### To push the tags to the remote repository.
+#### 🚀 To push the tags to the remote repository.
     git push --tags
 
 <hr><hr>
