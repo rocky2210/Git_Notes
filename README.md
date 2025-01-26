@@ -143,17 +143,17 @@ This repository contains basic git commands
 
 <hr><hr>
 
-## 1.8 Fetching and Stashing
-#### To fetch down any changes from the global repository to the current repository.
+## 🔄 1.8 Fetching and Stashing
+#### 📥 To fetch down any changes from the global repository to the current repository.
     git fetch
 
-#### To move staged files to the stash area which is present in the staging area.
+#### 📦 To move staged files to the stash area which is present in the staging area.
     git stash
 
-#### To get back the files that are present in the stash area.
+#### 🔄 To get back the files that are present in the stash area.
     git stash pop
 
-#### To clear the stash folder.
+#### 🗑️ To clear the stash folder.
     git stash clear
 
 <hr><hr>
