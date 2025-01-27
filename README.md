@@ -158,8 +158,8 @@ This repository contains basic git commands
 
 <hr><hr>
 
-## 1.9 Rebasing
-#### Three tasks are performed by git rebase
+## ⚡ 1.9 Rebasing
+#### 🔄 Three tasks are performed by git rebase
 ##### 1. Move all changes to master which are not in origin/master to a temporary area.
 ##### 2. Run all origin master commits.
 ##### 3. Run all commits in the temporary area on top of our master one at a time, so it avoids merge commits.
@@ -167,8 +167,8 @@ This repository contains basic git commands
 
 <hr><hr>
 
-## 1.10 Miscellaneous
-#### Used to show the current version of Git.
+## 🛠️ 1.10 Miscellaneous
+#### 🔢 Used to show the current version of Git.
     git --version
 
 <hr><hr>
