@@ -173,22 +173,22 @@ This repository contains basic git commands
 
 <hr><hr>
 
-# 2. Advanced Git Commands
+# 🚀 2. Advanced Git Commands
 
-## 2.1 Cherry-Pick
-#### To apply the changes from a specific commit.
+## 🍒 2.1 Cherry-Pick
+#### 📌 To apply the changes from a specific commit.
     git cherry-pick <commit_hash>
 
-## 2.2 Reflog
-#### To see the history of all references in the repository.
+## 🔙 2.2 Reflog
+#### 📜 To see the history of all references in the repository.
     git reflog
 
-## 2.3 Blame
-#### To show what revision and author last modified each line of a file.
+## 🔍 2.3 Blame
+#### 📄 To show what revision and author last modified each line of a file.
     git blame <file>
 
-## 2.4 Archive
-#### To create an archive of files from a named tree.
+## 📦 2.4 Archive
+#### 🗜️ To create an archive of files from a named tree.
     git archive --format=tar <commit_hash> | tar -x -C /path/to/extract
 
 ## 2.5 Submodule
