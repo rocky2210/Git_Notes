@@ -191,34 +191,34 @@ This repository contains basic git commands
 #### 🗜️ To create an archive of files from a named tree.
     git archive --format=tar <commit_hash> | tar -x -C /path/to/extract
 
-## 2.5 Submodule
-#### To add a submodule to the repository.
+## 🔗  2.5 Submodule
+#### 🔗 To add a submodule to the repository.
     git submodule add <repository_url> <path>
 
-#### To initialize, fetch, and checkout the submodule.
+#### ⏳ To initialize, fetch, and checkout the submodule.
     git submodule update --init --recursive
 
-## 2.6 Clean
-#### To remove untracked files from the working directory.
+## 🗑️ 2.6 Clean
+#### ❌ To remove untracked files from the working directory.
     git clean -f
 
-## 2.7 Shortlog
-#### To summarize the commit history.
+## 📜 2.7 Shortlog
+#### 📝 To summarize the commit history.
     git shortlog
 
-## 2.8 Show
-#### To show various types of objects.
+## 🧐 2.8 Show
+#### 🔍 To show various types of objects.
     git show <object>
 
-## 2.9 Tag
-#### To sign a tag with GPG.
+## 🏷️ 2.9 Tag
+#### 🔏 To sign a tag with GPG.
     git tag -s <tag_name> -m "message"
 
-## 2.10 Worktree
-#### To manage multiple working trees.
+## 🌲 2.10 Worktree
+#### 🌳 To manage multiple working trees.
     git worktree add <path> <branch>
 
-#### To prune working trees.
+#### 🗑️ To prune working trees.
     git worktree prune
 
 # 3. Additional Commands
