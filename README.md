@@ -221,14 +221,14 @@ This repository contains basic git commands
 #### 🗑️ To prune working trees.
     git worktree prune
 
-# 3. Additional Commands
+# 🛠️ 3. Additional Commands
 
-## 3.1 Revert
-#### To create a new commit that undoes the changes from a previous commit.
+## 🔄 3.1 Revert
+#### ⏪ To create a new commit that undoes the changes from a previous commit.
     git revert <commit_hash>
 
-## 3.2 Log with Graph
-#### To view the commit history as a graph.
+## 🔀 3.2 Log with Graph
+#### 📊 To view the commit history as a graph.
     git log --graph --oneline --all
 
 ## 3.3 Branch Rename
