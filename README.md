@@ -231,12 +231,12 @@ This repository contains basic git commands
 #### 📊 To view the commit history as a graph.
     git log --graph --oneline --all
 
-## 3.3 Branch Rename
-#### To rename a branch.
+## ✏️ 3.3 Branch Rename
+#### 📝 To rename a branch.
     git branch -m <old_name> <new_name>
 
-## 3.4 Pull
-#### To fetch and merge changes from the remote repository to the current branch.
+## 🔄 3.4 Pull
+#### 📥 To fetch and merge changes from the remote repository to the current branch.
     git pull
 
 ## 3.5 Rebase Interactive
