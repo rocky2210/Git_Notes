@@ -239,12 +239,12 @@ This repository contains basic git commands
 #### 📥 To fetch and merge changes from the remote repository to the current branch.
     git pull
 
-## 3.5 Rebase Interactive
-#### To interactively rebase the current branch.
+## 🔧 3.5 Rebase Interactive
+#### ⚡ To interactively rebase the current branch.
     git rebase -i <base_commit>
 
-## 3.6 Squash Commits
-#### To combine multiple commits into one.
+## 🔗 3.6 Squash Commits
+#### 📌 To combine multiple commits into one.
     git rebase -i HEAD~<number_of_commits>
 
 ## 3.7 Tag Listing
