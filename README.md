@@ -247,20 +247,20 @@ This repository contains basic git commands
 #### 📌 To combine multiple commits into one.
     git rebase -i HEAD~<number_of_commits>
 
-## 3.7 Tag Listing
-#### To list all tags in the repository.
+## 🏷️ 3.7 Tag Listing
+#### 📜 To list all tags in the repository.
     git tag -l
 
-## 3.8 Show Branch
-#### To show branches and their commits.
+## 🌿 3.8 Show Branch
+#### 🔍 To show branches and their commits.
     git show-branch
 
-## 3.9 Apply Patch
-#### To apply a patch file to the repository.
+## 🩹 3.9 Apply Patch
+#### 🛠️ To apply a patch file to the repository.
     git apply <patch_file>
 
-## 3.10 Amend Commit
-#### To modify the last commit.
+## ✏️ 3.10 Amend Commit
+#### 🔄 To modify the last commit.
     git commit --amend
 
 # 4. Conclusion 😁
