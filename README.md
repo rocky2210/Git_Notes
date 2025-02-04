@@ -3,7 +3,7 @@ This repository contains basic git commands
 
 # 📌  1. Git Basics Commands 
 
-## 1.1 Git Help  📚 
+## 📚 1.1 Git Help   
 ####  🛠️ Take help from the Git help section for different commands and other errors.
     git help
 
